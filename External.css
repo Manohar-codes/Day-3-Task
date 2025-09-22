@@ -1,0 +1,47 @@
+/* style.css */
+
+/* Reset some default margins/paddings */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #87ceeb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Heading style */
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Preformatted text box */
+pre {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  white-space: pre-wrap;   /* Allows wrapping */
+  word-wrap: break-word;   /* Breaks long words */
+}
+
+/* Link styling */
+a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Overall layout */
+body {
+  max-width: 800px;
+  margin: auto;
+}
